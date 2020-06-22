@@ -52,7 +52,6 @@ if len(sys.argv) == 3:
 
                     #check if reached end of row. If at the end found still 1 it's a match!
                     if i == len(row)-2 and found == 1:
-                        #print("Here is the bastard:")
                         print(row[0])
                         ok=1
 
