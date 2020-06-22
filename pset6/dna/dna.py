@@ -48,7 +48,6 @@ if len(sys.argv) == 3:
                     #print(f"line {i} row[i]",row[i+1])
 
                     if int(row[i+1]) != tofind[i][1]:
-                        #print("HERE I FOUND ONE BASTARD!")
                         found = 0
 
                     #check if reached end of row. If at the end found still 1 it's a match!
